@@ -1,0 +1,29 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    amq-protocol (2.2.0)
+    bunny (2.7.1)
+      amq-protocol (>= 2.2.0)
+    concurrent-ruby (1.0.5)
+    serverengine (1.5.11)
+      sigdump (~> 0.2.2)
+    sigdump (0.2.4)
+    sneakers (2.6.0)
+      bunny (~> 2.7.0)
+      concurrent-ruby (~> 1.0)
+      serverengine (~> 1.5.11)
+      thor
+    thor (0.20.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bunny
+  sneakers
+
+RUBY VERSION
+   ruby 2.4.1p111
+
+BUNDLED WITH
+   1.15.4
